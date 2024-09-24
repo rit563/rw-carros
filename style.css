@@ -1,0 +1,181 @@
+html, body {
+  background-color:black;
+  color:green;
+  font-family: "Sevillana", cursive;
+  margin:0;
+  overflow-x: hidden;
+  font-size:30px; 
+}
+.slider{
+  display:  flex;
+    overflow-x: auto;
+ scroll-snap-type: x mandatory;
+ height: 100vh;
+  width: 100vw;
+}  
+
+.slide{
+ min-width:100vw;
+display: inline-block;
+flex-direction: column;
+justify-content:center;
+ align-items: center; 
+scroll-snap-align:center;
+}
+
+.principal {
+background-image: url("fundo.png");
+background-repeat: no-repeat;
+background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+align-items: flex-start;
+ text-align: center;
+ display:flex;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  justify-content:center;
+  flex-direction:column;
+} 
+
+
+
+.botao{
+background-color:purple;
+  border-radius: 5px;
+  padding: 1em;
+  color:white;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center; 
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin-left: 50px;
+  width: 80vh;
+} 
+.botao2{
+background-color:transparent;
+  border: solid 2px white;
+  border-radius: 5px;
+  padding: 1em;
+  color:white;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  margin-left: 50px;
+   width: 80vh;
+}  
+.botao:hover {
+  background-color:yellow;
+  color: green;  
+}
+.botao2:hover {
+  background-color:yellow;
+  color:green;
+}
+
+
+.imagem{
+ height: 300px;
+ margin-left:70px;
+
+}  
+.aviso{
+ color:silver;
+  font-size: 13px;
+  margin-left: 170px;
+}
+  
+ ] .titulo{  
+ width: 100%;  
+  max-width:600px;
+  margin-left: 30px;
+  }    
+.container{
+height: 100vh;
+display: grid;
+ grid-template-columns:55% 50% 50%;
+} 
+  
+  .menu{
+   max-width: 1200px; 
+    margin:0 auto;  
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+    
+    
+    .menutitulo{
+     color:white;
+     font-size: 50px;
+      margin-bottom:20px;
+      text-decoration: double; 
+       text-align: center;
+       
+} 
+.menuitem{
+  display: flex;
+  align-items: center;
+  background-color:black;
+  border-bottom-radius: 8px;
+  box-shadow:0 4px 8px white;   
+  overflow: hidden;
+}
+  .menuimagem{
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+}
+    
+.menuinfo  {      
+ padding:20px; 
+}
+
+    .itemmenu{
+     font-size: 25px;
+      color:blue;
+    }       
+.descricao2{    
+font-size:13px;   
+ color:  white;
+ text-align: justify;  
+      }          
+    
+   .preco{
+      font-size: 20px;
+      color:green;
+      font-weight: bold; 
+      text-decoration: none;    
+          }              
+/*PÁGINA 3*/   
+    
+.titulo2{    
+ font-size: 45px;   
+  color: white; 
+    margin-bottom: 1em;
+    text-align: center;
+ font-family: "SUSE", sans-serif;
+}
+
+
+
+.secundario{
+  align-items: center;
+  margin: 0 10em;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  
+    
